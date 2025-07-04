@@ -2,7 +2,7 @@ Markdown
 
 # My Awesome Space Shooter Game
 
-A classic arcade-style space shooter built with Godot Engine, where you control a spaceship, destroy incoming asteroids, and survive for as long as possible!
+A classic arcade-style space shooter built with Godot Engine and ai, where you control a spaceship, destroy incoming asteroids, and survive for as long as possible!
 
 -   [About The Game](#about-the-game)
 -   [Features](#features)
@@ -10,7 +10,7 @@ A classic arcade-style space shooter built with Godot Engine, where you control 
 
 ## About The Game
 
-"My Awesome Space Shooter Game" is a fast-paced arcade experience. Pilot your spaceship, dodge and shoot down waves of incoming asteroids, and manage your lives. The game features dynamic difficulty, power-ups, and adaptive controls for both desktop and mobile platforms.
+"My Awesome Space Shooter Game" is a fast-paced arcade experience. Pilot your spaceship, dodge and shoot down waves of incoming asteroids, and manage your lives. The game features dynamic difficulty, power-ups, and adaptive controls for both desktop and mobile platforms, I vibed coded this game btw
 
 ## Features
 

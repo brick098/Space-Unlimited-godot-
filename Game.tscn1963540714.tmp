@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://dmpk8jhnmwxan"]
+
+[ext_resource type="Texture2D" uid="uid://dx470tfh45p0y" path="res://starfield3 (2).png" id="1_u44n3"]
+[ext_resource type="Script" uid="uid://br144tiptyoh8" path="res://spaceship.gd" id="1_xkndl"]
+[ext_resource type="Script" uid="uid://bn2wccu4wqhgi" path="res://bg.gd" id="2_sb48q"]
+[ext_resource type="Texture2D" uid="uid://dybogcfu1x73m" path="res://Ship.svg" id="2_u44n3"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BG" type="Sprite2D" parent="."]
+texture = ExtResource("1_u44n3")
+script = ExtResource("2_sb48q")
+
+[node name="Spaceship" type="Sprite2D" parent="."]
+texture = ExtResource("2_u44n3")
+script = ExtResource("1_xkndl")
+bottom_offset = null

@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="space shooter"
+run/main_scene="uid://cyfmbwtx03so3"
+config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/image="uid://dckjrigxasq6k"
+config/icon="uid://dckjrigxasq6k"
+
+[display]
+
+window/size/mode=3
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[layer_names]
+
+2d_physics/layer_1="Lasers"
+2d_physics/layer_2="Asteroids"
+2d_physics/layer_3="Player"
+2d_physics/layer_4="LifePickups"
